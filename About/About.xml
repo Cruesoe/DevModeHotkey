@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Dev Mode Hotkey</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.devmodehotkey</packageId>
+  <modVersion IgnoreIfNoMatchingField="True">1.1.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Hotkey to switch development mode on and off. Default is KeyPad_Period (the key between 0 and Enter on the keypad).
+
+Change the binding in Options -&gt; Controls -&gt; Keyboard Configuration: Modify -&gt; Developer tools -&gt; Toggle Development Mode.
+
+This is a replacement for NightmareCorporation's Development Mode Hotkey. Disable the workshop version before enabling this one. It avoids a RimWorld 1.6 NullReferenceException during loading by not polling the hotkey until the UI actually exists.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>Nightmare.DevModeHotkey</li>
+  </incompatibleWith>
+</ModMetaData>

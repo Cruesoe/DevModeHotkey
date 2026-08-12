@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>DevModeHotkey</RootNamespace>
+    <AssemblyName>DevModeHotkey</AssemblyName>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)..\1.6\Assemblies\</OutputPath>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <Deterministic>true</Deterministic>
+    <RimWorldManaged>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed</RimWorldManaged>
+    <HarmonyDll>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HarmonyDll>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldManaged)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldManaged)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(RimWorldManaged)\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
