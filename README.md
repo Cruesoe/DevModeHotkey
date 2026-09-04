@@ -1,12 +1,14 @@
 # Dev Mode Hotkey
 
+Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3782416970
+
 Replacement for NightmareCorporation's [Development Mode Hotkey](https://steamcommunity.com/sharedfiles/filedetails/?id=3009274839). Same keypad-period toggle, without the RimWorld 1.6 loading-screen exception.
 
-**Disable the workshop mod** before enabling this one.
+**Disable NightmareCorporation's original** before enabling this one. Do not run both.
 
 ## Install
 
-Copy this folder to `RimWorld\Mods\`, or build and leave a junction there.
+Subscribe on Steam, or copy this folder to `RimWorld\Mods\`.
 
 Default key: keypad period. Rebind under Options → Controls → Developer tools → Toggle Development Mode.
 
