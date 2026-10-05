@@ -1,0 +1,7 @@
+Toggle development mode with a hotkey. Default is the keypad period key (between 0 and Enter). 
+
+This exists because the original Development Mode Hotkey mod throws an error sometimes RimWorld 1.6 loads. The hotkey still works, but puts a log with a NullReferenceException. This version does the same job without that error.
+
+Disable the original Development Mode Hotkey by NightmareCorporation before enabling this one. Do not run both.
+
+Based on NightmareCorporation's [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3009274839]Development Mode Hotkey[/url] (CC BY-NC-SA 4.0).
